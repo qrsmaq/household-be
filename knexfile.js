@@ -51,10 +51,10 @@ module.exports = {
       max: 10,
     },
     migrations: {
-      directory: "/db/migrations",
+      directory: __dirname + "/db/migrations",
     },
     seeds: {
-      directory: "/db/seeds",
+      directory: __dirname + "/db/seeds",
     },
     // pool: {
     //   afterCreate: (conn, done) => {
